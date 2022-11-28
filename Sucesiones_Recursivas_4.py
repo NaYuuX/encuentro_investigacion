@@ -25,7 +25,8 @@ while aux <= n:
         un_ = corolario(uns, aux, False)
     sucesiones.append(un_)
     uns.append(un_)
-    print(un_)
+    #Para ver los valores de cada u_n, elimine el primer # de la siguiente línea
+    #print(f"u_{aux} = {un_}")
     aux += 1
 
 def graficar(sucesiones):
